@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 現状未使用 BuildLibrary.batに直接記述-->
+<flex-config>
+    <target-player>13</target-player>
+    <compiler>
+        <source-path>
+            <path-element>src</path-element>
+        </source-path>
+    </compiler>
+    <output>bin/PacketLib.swc</output>
+    <include-classes>
+        <class>livefan.packet.EthernetPacket</class>
+        <class>livefan.packet.EthernetPacketType</class>
+        <class>livefan.packet.IpPacket</class>
+        <class>livefan.packet.IpProtocolType</class>
+        <class>livefan.packet.Ipv4Packet</class>
+        <class>livefan.packet.Ipv6Packet</class>
+        <class>livefan.packet.NetworkByteOrder</class>
+        <class>livefan.packet.Packet</class>
+        <class>livefan.packet.PacketUtil</class>
+        <class>livefan.packet.PppoePacket</class>
+        <class>livefan.packet.PppPacket</class>
+        <class>livefan.packet.PppProtocol</class>
+        <class>livefan.packet.TcpCtrlFlag</class>
+        <class>livefan.packet.TcpPacket</class>
+        <class>livefan.packet.UdpPacket</class>
+    </include-classes>
+</flex-config>
